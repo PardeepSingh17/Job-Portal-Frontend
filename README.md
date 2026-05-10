@@ -53,7 +53,7 @@ A full-stack MERN Job Portal frontend built using React and Vite. This applicati
 ## Clone the repository
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/PardeepSingh17/Job-Portal-Frontend.git
 ```
 
 ## Navigate to project directory
