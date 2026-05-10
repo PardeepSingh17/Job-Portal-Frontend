@@ -1,0 +1,41 @@
+.formDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.title {
+    width: 100%;
+}
+
+.description {
+    width: 100%;
+}
+
+.salary {
+    width: 49%;
+}
+
+.location {
+    width: 49%;
+}
+
+.company {
+    width: 100%;
+}
+
+.heading {
+    color: #1976d2;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 50%;
+}

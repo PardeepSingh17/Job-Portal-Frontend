@@ -1,0 +1,13 @@
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    flex-direction: column;
+}

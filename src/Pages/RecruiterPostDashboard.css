@@ -1,0 +1,52 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.LocationSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hrLine {
+    width: 60%;
+}
+
+.applicant {
+    background-color: rgb(134, 191, 235);
+    border: 2px solid rgb(72, 145, 229);
+    border-radius: 14px;
+    color: white;
+}
+
+.applicant:hover {
+    box-shadow: 2px 2px 7px 1px rgb(81, 118, 137);
+    transition: 150ms;
+}
+
+.applications h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}

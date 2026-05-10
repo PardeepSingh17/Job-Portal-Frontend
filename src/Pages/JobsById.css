@@ -1,0 +1,36 @@
+
+.JobDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+.JobDiv hr {
+    width: 70vh;
+}
+
+.JobDiv h1,h2,h3,p,span {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.LocationSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ApplyDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.ApplyDiv h3 {
+    margin-top: 8px;
+    margin-right: 20px;
+}
