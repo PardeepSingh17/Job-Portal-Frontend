@@ -16,7 +16,7 @@ export default function ApplyForm() {
         try {
             let formData = new FormData(event.target)
             let token = localStorage.getItem("token")
-            let res = await fetch(`/api/jobs/${id}/apply`, {
+            let res = await fetch(`https://job-portal-3izy.onrender.com/api/jobs/${id}/apply`, {
                 method : "POST",
                 headers : {   
                     'authorization': `Bearer ${token}`

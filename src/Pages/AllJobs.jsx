@@ -26,7 +26,7 @@ export default function AllJobs() {
     useEffect(() => {
         let getJobs = async () => {
             try {
-                let data = await fetch(`/api/jobs?page=${page}&title=${title}&location=${location}&salary=${salary}&company=${company}`)
+                let data = await fetch(`https://job-portal-3izy.onrender.com/api/jobs?page=${page}&title=${title}&location=${location}&salary=${salary}&company=${company}`)
                 data = await data.json()
                 
                 setEntries(data.allJobs)

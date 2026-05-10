@@ -15,7 +15,7 @@ export default function RecruiterHomePage() {
         let getRecruiterJobs = async () => {
             try {
                 let token = localStorage.getItem("token")
-                let res = await fetch("/api/jobs/myJobs" , {
+                let res = await fetch("https://job-portal-3izy.onrender.com/api/jobs/myJobs" , {
                     headers : {
                         "authorization" : `Bearer ${token}`
                     }
@@ -31,10 +31,6 @@ export default function RecruiterHomePage() {
         }
         getRecruiterJobs()
     }, [])
-
-    const handleJobCardClick = (id) => {
-        Navigate(`/jobs/myJob/${id}`)
-    }
 
     return <div>
         {recuiterJobs && <div className="jobsDiv"> 

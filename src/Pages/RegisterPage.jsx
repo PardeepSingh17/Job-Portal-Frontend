@@ -41,7 +41,7 @@ export default function RegisterPage() {
         event.preventDefault()
 
         try { 
-            const res = await fetch("/api/auth/register", {
+            const res = await fetch("https://job-portal-3izy.onrender.com/api/auth/register", {
                 method : "POST",
                 headers : {
                     "Content-Type": "application/json"
@@ -53,7 +53,7 @@ export default function RegisterPage() {
 
             if(data.success) {
                 
-                let loginRes = await fetch("/api/auth/login", {
+                let loginRes = await fetch("https://job-portal-3izy.onrender.com/api/auth/login", {
                     method : "POST",
                     headers : {
                         "Content-Type": "application/json"

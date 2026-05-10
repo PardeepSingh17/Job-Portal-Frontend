@@ -21,7 +21,7 @@ export default function RecruiterPostDashboard() {
     useEffect(() => {
         let getApplicants = async () => {
             let token = localStorage.getItem("token")
-            let res = await fetch(`/api/jobs/myJobs/${id}`, {
+            let res = await fetch(`https://job-portal-3izy.onrender.com/api/jobs/myJobs/${id}`, {
                 headers : {
                     "authorization" : `Bearer ${token}`
                 }
@@ -49,7 +49,7 @@ export default function RecruiterPostDashboard() {
     let handleDeleteClick = async () => {
         try{
             let token = localStorage.getItem("token")
-            let res = await fetch(`/api/jobs/${job._id}`, {
+            let res = await fetch(`https://job-portal-3izy.onrender.com/api/jobs/${job._id}`, {
                 method : "DELETE",
                 headers : {
                     "authorization" : `Bearer ${token}`

@@ -16,7 +16,7 @@ export default function JobById() {
 
     useEffect(() => {
         let getJobByID = async () => {
-            let job = await fetch(`/api/jobs/${id}`)
+            let job = await fetch(`https://job-portal-3izy.onrender.com/api/jobs/${id}`)
             let data = await job.json()
             setJobDetails(data)
             setOwner(data.createdBy.username)

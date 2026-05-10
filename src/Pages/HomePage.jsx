@@ -12,13 +12,6 @@ import CandidateHomePage from "./CandidateHomePage";
 import RecruiterHomePage from "./RecruiterHomePage";
 
 
-const result = await fetch("/api/jobs?page=1" )
-
-let data = await result.json()
-  
-
-
-
 export default function HomePage() {
     const Navigate = useNavigate()
     const [search, setSearch] = useState("")

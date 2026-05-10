@@ -16,7 +16,7 @@ export default function CandidateHomePage() {
     useEffect(() => {
         let getAppliedJobs = async () => {
             let token = localStorage.getItem("token")
-            let res = await fetch("/api/jobs/applied" , {
+            let res = await fetch("https://job-portal-3izy.onrender.com/api/jobs/applied" , {
                 headers : {
                     "authorization" : `Bearer ${token}`
                 }
