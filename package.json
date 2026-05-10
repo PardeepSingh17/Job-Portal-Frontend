@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:8080",
+  "proxy": "https://job-portal-3izy.onrender.com/",
   "name": "jobportalfrontend",
   "private": true,
   "version": "0.0.0",
