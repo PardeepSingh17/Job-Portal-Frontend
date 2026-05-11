@@ -13,7 +13,7 @@ export default function Navbar() {
     useEffect(() => {
         let LoginCheck = async () => {
             let token = localStorage.getItem("token") || ""
-            let res = await fetch("/api/auth/isLogin", {
+            let res = await fetch("https://job-portal-3izy.onrender.com/api/auth/isLogin", {
                 headers : {
                     "authorization" : `bearer ${token}`
                 }
