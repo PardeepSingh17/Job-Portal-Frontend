@@ -32,7 +32,7 @@ export default function AllJobs() {
                 setEntries(data.allJobs)
                 
             } catch (err) {
-                console.log("err")
+                console.log(err)
             }
             
         }
