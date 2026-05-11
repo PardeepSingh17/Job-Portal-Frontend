@@ -141,14 +141,14 @@ npm run preview
 # Live Demo
 
 Frontend:
-```txt
+
 https://job-portal-frontend-coral-pi.vercel.app
-```
+
 
 Backend API:
-```txt
+
 https://job-portal-3izy.onrender.com
-```
+
 
 ---
 
